@@ -42,6 +42,7 @@ li {
     align-items: center;
     flex-direction: row-reverse;
     padding: 30px 100px;
+    padding-bottom: 100px; 
 }
 
 .hero-container .content {
@@ -59,7 +60,7 @@ h1 {
 
 p {
     color: white;
-    font-family: Montserrat, sans-serif;
+    font-family: montserrat, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -68,11 +69,59 @@ p {
 button {
     background-color: #a01010;
     color: white;
-    font-family: Montserrat, sans-serif;
+    font-family: montserrat, sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
     padding: 8px 12px;
     border-radius: 8px;
     border: none;
+}
+
+.title {
+    text-align: center;
+    color: #2d2929;
+    font-family: ff-folk-rough, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+}
+ .char img {
+    border: 5px solid #a01010;
+    border-radius: 8px;
+    width: 150px;
+ }
+
+.char {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    margin-top: 0;
+    width: 200px;
+}
+
+.bold-text {
+    color: #2d2929;
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.text {
+    color: #2d2929;
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
 }
