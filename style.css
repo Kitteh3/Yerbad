@@ -92,7 +92,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 10px;
+    padding: 50px 10px;
 }
  .char img {
     border: 5px solid #a01010;
@@ -124,4 +124,31 @@ button {
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
+}
+
+.quote-container {
+    background-color: #d6d6d6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote p {
+    color: #2d2929;
+    font-family: montserrat, sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 8px;
+}
+
+.name {
+    color: #2d2929;
+    font-family: ff-folk-rough, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: auto;
 }
