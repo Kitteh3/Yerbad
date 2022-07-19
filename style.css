@@ -22,6 +22,7 @@ body {
     font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 300;
+    font-size: 16px;
     margin-left: auto;
 }
 
@@ -33,4 +34,45 @@ ul {
 
 li {
     margin: 0 15px;
+}
+
+.hero-container {
+    background-color: #2d2929;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 30px 100px;
+}
+
+.hero-container .content {
+    flex: 1;
+    padding-right: 24px;
+}
+
+h1 {
+    color: white;
+    font-family: ff-folk-rough, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+p {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+button {
+    background-color: #a01010;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
 }
